@@ -22,7 +22,7 @@ public class Opgave6 {
         Scanner userInput = new Scanner(System.in);
         System.out.println("The basic membership is 300kr/month.");
         System.out.println("Let's see if we can get you a discount!");
-        System.out.println("Have you a passive member this month? true/false");
+        System.out.println("Are you a passive member this month? true/false");
         isPassive = userInput.nextBoolean();
         System.out.println("Are you a student? true/false");
         isStudent = userInput.nextBoolean();
